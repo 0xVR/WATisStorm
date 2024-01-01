@@ -8,6 +8,7 @@
 import React from 'react';
 import type {PropsWithChildren} from 'react';
 import {
+  ImageBackground,
   SafeAreaView,
   ScrollView,
   StatusBar,
@@ -76,6 +77,7 @@ function App(): React.JSX.Element {
           style={{
             backgroundColor: isDarkMode ? Colors.black : Colors.white,
           }}>
+          <ImageBackground src={'../assets/map.jpg'} resizeMode='cover' style={styles.image}>
           <Section title="Step One">
             Edit <Text style={styles.highlight}>App.tsx</Text> to change this
             screen and then come back to see your edits.
@@ -90,6 +92,7 @@ function App(): React.JSX.Element {
             Read the docs to discover what to do next:
           </Section>
           <LearnMoreLinks />
+          </ImageBackground>
         </View>
       </ScrollView>
     </SafeAreaView>
@@ -113,6 +116,10 @@ const styles = StyleSheet.create({
   highlight: {
     fontWeight: '700',
   },
+  image: {
+    flex: 1,
+    justifyContent: 'center',
+  }
 });
 
 export default App;
