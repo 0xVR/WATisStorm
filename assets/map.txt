@@ -1,0 +1,78 @@
+/* TODO: Consider alternate names, smarter routes (e.g. CIM) */
+building EXP-Health Expansion Building
+building LHI-Lyle S. Hallman Institute for Health Promotion
+building BMH-B.C. Matthews Hall
+building PAC-Physical Activities Center
+building SLC-Student Life Center
+building MC-Mathematics & Computer
+building M3-Mathematics 3
+building DC-W.G. Davis Computer Research Centre
+building CIM-TODO: reconsider
+building E3-Engineering 3
+building E5-Engineering 5
+building E7-Engineering 7
+building E6-Engineering 6
+building E2-Engineering 2
+building CPH-Carl A. Pollock Hall
+building DWE-Douglas Wright Engineering Building
+building SCH-South Campus Hall
+building TC-William M. Tatham Centre for Co-operative Education & Career Action
+building HH-J.G. Hagey Hall of the Humanities
+building AL-Arts Lecture Hall
+building ML-Modern Languages
+building EV1-Environment 1
+building EV2-Environment 2
+building EV3-Environment 3
+building PAS-Psychology, Anthropology, Sociology
+building RCH-J.R. Coutts Engineering Lecture Hall
+building PHY-Physics
+building EIT-Centre for Environmental and Information Technology
+building C2-Chemistry 2
+building ESC-Earth Sciences & Chemistry
+building B1-Biology 1
+building B2-Biology 2
+building QNC-Mike & Ophelia Lazaridis Quantum-Nano Centre
+building STC-Science Teaching Complex
+building NH-Ira G. Needles Hall
+connection EXP LHI
+connection EXP BMH
+connection LHI BMH
+connection PAC SLC
+connection SLC MC
+connection MC M3
+connection MC DC
+connection M3 DC
+connection MC QNC
+connection MC C2
+connection DC C2
+connection DC CIM
+connection CIM EIT
+connection CIM E3
+connection E3 E5
+connection E5 E7
+connection E7 E6
+connection E3 E2
+connection E2 PHY
+connection E2 RCH
+connection E2 DWE
+connection E2 CPH
+connection CPH DWE
+connection DWE RCH
+connection SCH TC
+connection TC HH
+connection TC AL
+connection AL ML
+connection AL EV1
+connection ML EV1
+connection EV1 EV2
+connection EV2 PAS
+connection EV2 EV3
+connection PHY EIT
+connection EIT ESC
+connection ESC C2
+connection ESC B1
+connection ESC B2
+connection B2 QNC
+connection B2 STC
+connection STC NH
+connection EV1 HH
