@@ -1,7 +1,7 @@
 // TODO: Integrate with graph
 import fs from 'fs';
 
-async function parseMap(): Promise<void> {
+export const parseMap = async () => {
     const data = await fs.promises.readFile("../assets/map.txt", "utf8");
     data.split('\n').forEach(e => {
         if (e.startsWith("building")) {
