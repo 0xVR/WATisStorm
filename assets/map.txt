@@ -16,7 +16,7 @@ building E2-Engineering 2
 building CPH-Carl A. Pollock Hall
 building DWE-Douglas Wright Engineering Building
 building SCH-South Campus Hall
-building TC-William M. Tatham Centre for Co-operative Education & Career Action
+building TC-William M. Tatham Centre for Cooperative Education & Career Action
 building HH-J.G. Hagey Hall of the Humanities
 building AL-Arts Lecture Hall
 building ML-Modern Languages
@@ -31,7 +31,7 @@ building C2-Chemistry 2
 building ESC-Earth Sciences & Chemistry
 building B1-Biology 1
 building B2-Biology 2
-building QNC-Mike & Ophelia Lazaridis Quantum-Nano Centre
+building QNC-Mike & Ophelia Lazaridis Quantum Nano Centre
 building STC-Science Teaching Complex
 building NH-Ira G. Needles Hall
 connection EXP LHI
